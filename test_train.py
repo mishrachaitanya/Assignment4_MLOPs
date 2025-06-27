@@ -1,4 +1,5 @@
-#Comment to test 
+
+#Added comment
 import csv
 import joblib
 import numpy as np
@@ -74,4 +75,3 @@ def test_random_input_on_saved_model():
 
     pred = model.predict(df_sample)[0]
     assert pred in [0, 1, 2], f"Prediction {pred} is invalid"
-
