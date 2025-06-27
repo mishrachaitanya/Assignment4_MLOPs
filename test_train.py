@@ -1,5 +1,3 @@
-
-#Added comment
 import csv
 import joblib
 import numpy as np
